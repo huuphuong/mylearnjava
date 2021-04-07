@@ -4,6 +4,15 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class JavaArrayList {
+    /**
+     * Là lớp kế thừa AbtractList và implement interface List
+     * Đặc điểm: 
+     *  + Chứa các phần tử trùng lặp
+     *  + Có thể thêm bớt phần từ
+     *  + Có thể truy cập phần tử theo index (chỉ muc)
+     *  + Thao tác chậm về hiệu năng vì khi có sự thay đổi <xóa phần tử> sẽ phải đánh lại index 
+     * @param args
+     */
     public static void main(String[] args) {
         ArrayList<String> listString = new ArrayList<String>();
         listString.add("PHP");
