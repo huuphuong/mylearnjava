@@ -6,7 +6,7 @@ import java.util.Iterator;
 import CollectionFramework.extra.Student;
 
 
-public class JavaHashSet {
+public class JavaHashSet extends Student{
     /**
      * HashSet là 1 lớp kế thừa AbtractSet và implement Set Interface
      * HashSet sử dụng tạo collection và sử dụng bảng băm để lưu trữ.

@@ -1,9 +1,9 @@
 package CollectionFramework.extra;
 
 public class Student {
-    private int id;
-    private String name;
-    private String gender;
+    protected int id;
+    protected String name;
+    protected String gender;
 
 
     public Student(int id, String name, String gender) {
