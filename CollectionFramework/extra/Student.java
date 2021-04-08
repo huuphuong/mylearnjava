@@ -5,8 +5,12 @@ public class Student {
     protected String name;
     protected String gender;
 
+    public Student() {
+       
+    }
 
     public Student(int id, String name, String gender) {
+        super();
         this.id = id;
         this.name = name;
         this.gender = gender;
