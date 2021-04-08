@@ -1,6 +1,6 @@
 package CollectionFramework.extra;
 
-public class Student {
+public class Student implements Comparable<Student> {
     protected int id;
     protected String name;
     protected String gender;
@@ -42,5 +42,10 @@ public class Student {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    @Override
+    public int compareTo(Student student) {
+        return this.getName().compareTo(student.getName());
     }
 }
