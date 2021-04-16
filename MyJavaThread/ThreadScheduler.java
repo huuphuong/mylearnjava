@@ -2,6 +2,9 @@ package MyJavaThread;
 
 public class ThreadScheduler extends Thread {
     /**
+     * Thread chỉ start 1 lần duy nhất, nếu cố tình start nhiều hơn 2 lần
+     *  -> một exception sễ đc bắn ra
+     * 
      * Test luôn phương thức sleep 
      * 1. Trong một thời điểm - CHỈ CÓ 1 THREAD đc chạy
      * 2. khi ts sleep -> hệ thống phát hiện ts đang ngủ và nó thấy đc t2 bắt đầu 
